@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Crystal Collector Game</title>
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"> 
+  </script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+  
+        <h1>Crystal Collector Game!</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 rules">
+                <h2>Rules</h2>
+                <p>You will be shown a random number at the start of the game. You will have four crystals displayed as buttons on the page. When you click on a crystal, it will add a specific amount of points to the total score. You will only know the amount on each crystal once you click it, otherwise it will be hidden. You will win the game if your total score matches the random number that appeared at the start of the game. Good luck!!!
+        </p>
+            </div>
+        </div>
+
+        <div class="row" id="gameSection">
+
+			<div class="col-md-2" id="numberSection">
+				<h3 class="text-center" id="random">Random Number: </h3>
+			</div>
+
+			<div class="col-md-8 text-center" id="buttonSection">
+				<button id="click1" value="0"><img src="assets/images/download (1).jpeg" class="img-responsive icons" id="crystal1"></button>
+				<button id="click2" value="0"><img src="assets/images/diamant-koh-i-noor-200x200.jpg" class="img-responsive icons" id="crystal2"></button>
+				<button id="click3" value="0"><img src="assets/images/download.jpeg" class="img-responsive icons" id="crystal3"></button>
+				<button id="click4" value="0"><img src="assets/images/images.jpeg" class="img-responsive icons" id="crystal4"></button>
+			</div>
+            
+            <div class="col-md-6" id="totalScore">
+				<h3 class="text-center" id="score">Your Jewel Score: </h3>
+			</div>
+		</div>
+		<div class="row" id="scoreSection">
+			<div class="col-md-6">
+            </div>
+			<div class="col-md-6" id="winnerArea">
+				<h3 class="text-center" id="wins">Wins:	</h3>
+			</div>
+			<div class="col-md-6" id="loserArea">
+				<h3 class="text-center" id="losses">Losses: </h3>
+			</div>
+			<div class="col-md-6"></div>
+		</div>	
+    </div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>

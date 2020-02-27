@@ -1,1 +1,2 @@
 # unit-4-game
+You will be shown a random number at the start of the game. You will have four crystals displayed as buttons on the page. When you click on a crystal, it will add a specific amount of points to the total score. You will only know the amount on each crystal once you click it, otherwise it will be hidden. You will win the game if your total score matches the random number that appeared at the start of the game. You will lose the game if your total score does not match the random number that appeared at the start of the game.
